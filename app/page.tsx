@@ -1,8 +1,7 @@
 import { EditableTableExample } from "@/components/examples/editable-table-example";
+import { ThemeToggle } from "@/components/theme-toggle";
 import { Button } from "@/components/ui/button";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { Moon02Icon } from "@hugeicons/core-free-icons";
-import { HugeiconsIcon } from "@hugeicons/react";
 
 export default function Home() {
   return (
@@ -12,7 +11,7 @@ export default function Home() {
           <div className="h-16 flex items-center justify-between">
             <span className="text-sm font-medium">rzn/ui</span>
             <Button variant="outline" size="icon-lg">
-              <HugeiconsIcon icon={Moon02Icon} />
+              <ThemeToggle />
             </Button>
           </div>
         </div>

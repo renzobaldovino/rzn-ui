@@ -622,7 +622,7 @@ export default function EditableTable<TRow extends Record<string, unknown>>({
         >
           <Table className="w-full table-fixed">
             {/* Header */}
-            <TableHeader className="sticky top-0 z-10 bg-background/95 backdrop-blur supports-backdrop-filter:bg-background/60 border-b">
+            <TableHeader className="sticky top-0 z-10 border-b">
               <TableRow className="hover:bg-transparent">
                 {/* Drag-handle column */}
                 {enableReorder && <TableHead className="w-8" />}
